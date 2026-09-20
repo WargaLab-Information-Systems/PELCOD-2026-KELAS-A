@@ -24,3 +24,28 @@
 # Total harga
 # Diskon (jika tidak ada diskon, tampilkan 0%)
 # Total bayar (total harga setelah diskon)
+
+
+# ==== Berbelanja di Supermarket ====
+nama_pembeli = input("Nama pembeli: ")
+harga_barang = float(input("Jumlah barang: Rp"))
+jumlah_barang = int(input("Jumlah barang: "))
+total_harga = harga_barang * jumlah_barang
+
+# ==== Diskon ====
+if total_harga >= 100.000,:
+    diskon_persen = 10
+else:
+    diskon_persen = 0
+
+# ==== Hitung nominal diskon ====
+diskon = total_harga * diskon_persen / 100
+
+# ==== Hitung total bayar ====
+total_bayar = harga_barang - diskon
+
+# ==== Hasil akhir, tampilkan: ====
+print ("Nama pembeli")
+print ("Total harga")
+print ("Diskon")
+print ("Total bayar")
