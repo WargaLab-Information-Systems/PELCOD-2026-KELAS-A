@@ -1,4 +1,5 @@
 # PELCOD-2026-KELAS-A
+
 # Git & GitHub — Clone to Push
 
 Panduan singkat untuk mengambil (**clone**) repository dari GitHub, melakukan perubahan pada project, kemudian meng-upload (**push**) perubahan tersebut kembali ke GitHub.
@@ -50,19 +51,7 @@ nama-repository/
 
 ---
 
-## 3. Cek Status
-
-Sebelum melakukan upload, cek perubahan menggunakan:
-
-```bash
-git status
-```
-
-Perintah ini digunakan untuk melihat file yang mengalami perubahan atau file baru yang belum dimasukkan ke staging area.
-
----
-
-## 4. Git Add
+## 3. Git Add
 
 Tambahkan file yang ingin di-upload:
 
@@ -81,6 +70,18 @@ Jika ingin menambahkan **semua file yang berubah**:
 ```bash
 git add .
 ```
+
+---
+
+## 4. Cek Status
+
+Sebelum melakukan upload, cek perubahan menggunakan:
+
+```bash
+git status
+```
+
+Perintah ini digunakan untuk melihat file yang mengalami perubahan atau file baru yang belum dimasukkan ke staging area.
 
 ---
 
